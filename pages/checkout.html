@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <input type="radio" name="menu" id="menu_open" class="menu_radio_button">
+        <input type="radio" name="menu" id="menu_close" class="menu_radio_button">
+        <label id="nav_shrink" for="menu_open">
+            <nav>
+                <img src="/images/menu.svg" alt="navigation icon">
+            </nav>
+        </label>
+        <section id="mobile_menu">
+            <div class="close_move">
+                <label id="nav_shrink" for="menu_close">
+                    <nav>
+                        <img src="/images/cancel.svg" alt="exit navigation icon">
+                    </nav>
+                </label>
+            </div>
+            <a class="nav" href="../index.html"><img src="/images/shop-alt.svg" alt="home shop"></a>
+            <a class="nav" href="/pages/checkout.html"><img src="/images/cart.svg" alt="cart icon"></a>
+        </section>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <script src="/js/checkout.js"></script>
+</body>
+
+</html>

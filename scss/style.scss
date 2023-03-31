@@ -1,0 +1,33 @@
+@use "header";
+@use "footer";
+@import "general";
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 30px;
+
+    article {
+        padding: 30px;
+        background-color: rgb(128, 138, 134);
+        border-radius: 15px;
+        margin: 20px;
+
+        #product img {
+            width: 250px;
+            border-radius: 15px;
+        }
+
+        .cart_icon img {
+            width: 30px;
+        }
+    }
+}

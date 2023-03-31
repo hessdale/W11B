@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +14,120 @@
 </head>
 
 <body>
-  <p>Hello World!</p>
+  <header>
+    <input type="radio" name="menu" id="menu_open" class="menu_radio_button">
+    <input type="radio" name="menu" id="menu_close" class="menu_radio_button">
+    <label id="nav_shrink" for="menu_open">
+      <nav>
+        <img src="/images/menu.svg" alt="navigation icon">
+      </nav>
+    </label>
+    <section id="mobile_menu">
+      <div class="close_move">
+        <label id="nav_shrink" for="menu_close">
+          <nav>
+            <img src="/images/cancel.svg" alt="exit navigation icon">
+          </nav>
+        </label>
+      </div>
+      <a class="nav" href="index.html"><img src="/images/shop-alt.svg" alt="home shop"></a>
+      <a class="nav" href="/pages/checkout.html"><img src="/images/cart.svg" alt="cart icon"></a>
+    </section>
+  </header>
+  </header>
+  <main>
+    <article id="product_1">
+      <div id="product">
+        <img src="/images/pentax_camera.webp" alt="pentax camera">
+      </div>
+      <h2>Pentax Camera</h2>
+      <p>Capture life's fleeting moments with stunning clarity using the Pentax camera. From vibrant landscapes to
+        intimate portraits, its advanced features and exceptional image quality will bring your vision to life. Elevate
+        your photography and express yourself like never before.</p>
+      <h4>Price: $250</h4>
+      <div class="cart_icon" id="add_pentax">
+        <img src="/images/add-to-cart.svg" alt="add to cart icon">
+      </div>
+    </article>
+    <article id="product_2">
+      <div id="product">
+        <img src="/images/nikon_camera.webp" alt="nikon camera">
+      </div>
+      <h2>Nikon Camera</h2>
+      <p>Experience the art of photography like never before with the Nikon camera. Equipped with cutting-edge
+        technology and unparalleled precision, it empowers you to unleash your creativity and capture life's precious
+        moments in breathtaking detail. Elevate your photography and make memories that last a lifetime.</p>
+      <h4>Price: $300</h4>
+      <div class="cart_icon" id="add_nikon">
+        <img src="/images/add-to-cart.svg" alt="add to cart icon">
+      </div>
+    </article>
+    <article id="product_3">
+      <div id="product">
+        <img src="/images/canon_camera.webp" alt="canon camera">
+      </div>
+      <h2>Canon Camera</h2>
+      <p>Unleash your inner artist with the Canon camera. Designed for those who demand excellence, its advanced
+        features and superior image quality enable you to capture stunning photographs and videos with ease. From
+        unforgettable moments to artistic expression, the Canon camera will help you make them come alive.</p>
+      <h4>Price: $450</h4>
+      <div class="cart_icon" id="add__canon">
+        <img src="/images/add-to-cart.svg" alt="add to cart icon">
+      </div>
+    </article>
+    <article id="product_4">
+      <div id="product">
+        <img src="/images/canon_film_camera.webp" alt="canon film camera">
+      </div>
+      <h2>Small Canon Camera</h2>
+      <p>Capture life's precious moments with the Canon point and shoot camera. Designed for convenience and ease of
+        use, it packs powerful features into a compact and portable package. Whether you're on vacation or simply
+        enjoying a day out, the Canon point and shoot camera is perfect for capturing memories on the go.</p>
+      <h4>Price: $90</h4>
+      <div class="cart_icon" id="add_small_canon">
+        <img src="/images/add-to-cart.svg" alt="add to cart icon">
+      </div>
+    </article>
+    <article id="product_5">
+      <div id="product">
+        <img src="/images/camera_sd_card.jpeg" alt="camera sd card">
+      </div>
+      <h2>SD Card</h2>
+      <p>Securely store and transfer your precious memories with a camera SD card. Offering reliable and high-speed
+        performance, it provides ample storage capacity to hold your photos and videos. Whether you're a professional
+        photographer or a casual shooter, a camera SD card is an essential accessory for your photography gear.</p>
+      <h4>Price: $65</h4>
+      <div class="cart_icon" id="add_sd">
+        <img src="/images/add-to-cart.svg" alt="add to cart icon">
+      </div>
+    </article>
+    <article id="product_6">
+      <div id="product">
+        <img src="/images/camera_lens.webp" alt="camera lens">
+      </div>
+      <h2>Camera Lens</h2>
+      <p>Unlock your creativity and capture stunning images with a camera lens. Designed to provide precise and clear
+        focus, it enables you to frame your subject with clarity and detail. Whether you're shooting portraits or
+        landscapes, a camera lens is an essential accessory that can take your photography to the next level.</p>
+      <h4>Price: $150</h4>
+      <div class="cart_icon" id="add_lens">
+        <img src="/images/add-to-cart.svg" alt="add to cart icon">
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>Camera store</p>
+    <p>Hours</p>
+    <p>Mon:9-5</p>
+    <p>Tues:9-5</p>
+    <p>Wed:9-5</p>
+    <p>Thurs:9-5</p>
+    <p>Friday:9-5</p>
+    <p>Sat:9-5</p>
+    <p>Sun:Closed</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+  <script src="/js/app.js"></script>
 </body>
 
 </html>
