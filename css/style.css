@@ -55,6 +55,16 @@ footer {
   background-color: rgb(58, 58, 78);
 }
 
+.grid_align_center {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.text_align_center {
+  text-align: center;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -62,7 +72,7 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
   justify-items: center;
   text-align: center;
@@ -73,6 +83,12 @@ main article {
   background-color: rgb(128, 138, 134);
   border-radius: 15px;
   margin: 20px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+main article #product {
+  display: grid;
 }
 main article #product img {
   width: 250px;
@@ -80,6 +96,8 @@ main article #product img {
 }
 main article .cart_icon img {
   width: 30px;
+  background-color: rgb(164, 186, 206);
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

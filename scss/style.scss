@@ -9,7 +9,7 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
     text-align: center;
@@ -20,6 +20,13 @@ main {
         background-color: rgb(128, 138, 134);
         border-radius: 15px;
         margin: 20px;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+
+        #product {
+            display: grid;
+        }
 
         #product img {
             width: 250px;
@@ -28,6 +35,8 @@ main {
 
         .cart_icon img {
             width: 30px;
+            background-color: rgb(164, 186, 206);
+            border-radius: 5px;
         }
     }
 }
