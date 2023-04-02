@@ -3,7 +3,7 @@
 let product = document.getElementById(`product`);
 
 for (i = 0; i < items.length; i++) {
-    product.insertAdjacentHTML(`afterbegin`,
+    product.insertAdjacentHTML(`beforebegin`,
         `<article id="product">
 <div id="product">
   <img src="${items[i].img}" alt="${items[i].name}">
